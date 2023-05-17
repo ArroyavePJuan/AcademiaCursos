@@ -1,7 +1,7 @@
 import Header from "../helpers/Header"
 
 
-const Home = () => {
+const Cursos = () => {
   return (
     <section>
         <Header />
@@ -10,4 +10,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Cursos

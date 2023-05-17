@@ -1,13 +1,12 @@
 import Header from "../helpers/Header"
 
 
-const Home = () => {
+const Horarios = () => {
   return (
     <section>
         <Header />
-        
     </section>
   )
 }
 
-export default Home
+export default Horarios
