@@ -3,10 +3,12 @@ import Header from "../helpers/Header"
 
 const Home = () => {
   return (
-    <section>
-        <Header />
-        
-    </section>
+    <main>
+      <Header />
+      <section>
+          
+      </section>
+    </main>
   )
 }
 

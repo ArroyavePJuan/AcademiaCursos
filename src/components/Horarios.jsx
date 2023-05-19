@@ -3,9 +3,12 @@ import Header from "../helpers/Header"
 
 const Horarios = () => {
   return (
-    <section>
-        <Header />
-    </section>
+    <main>
+      <Header />
+      <section>
+          
+      </section>
+    </main>
   )
 }
 
