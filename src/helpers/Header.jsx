@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom"
+import logo from "../img/logo.jpg"
 
 const Header = () => {
   return (
     <header>
         <nav>
-            <img src="../img/logo.png" className="logo" />
+            <img src={logo} className="logo" />
             <ul>
                 <Link to={'/'}>Inicio</Link>
                 <Link to={'/cursos'}>Cursos</Link>
-                <Link to={'/horarios'}>Horarios</Link>
             </ul>
         </nav>
     </header>

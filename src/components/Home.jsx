@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <main>
       <Header />
-      <section>
-          
+      <section className="inicio">
+          <h1>Bienvenido a nuestra academia</h1>
       </section>
     </main>
   )

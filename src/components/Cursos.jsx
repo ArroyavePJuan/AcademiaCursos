@@ -11,9 +11,12 @@ const Cursos = () => {
             data.map((dato)=>(
               // eslint-disable-next-line react/jsx-key
                 <section className="card">
-                    <p>{dato.nombre}</p>
-                    <p>{dato.descripcion}</p>
+                  <img src={dato.img}></img>
+                    <h4>{dato.nombre_curso}</h4>
+                    <p>{dato.duracion}</p>
+                    <p>{dato.categoria}</p>
                     <p>{dato.precio}</p>
+                    <p>{dato.descripcion}</p>
                 </section>
             ))
         }
